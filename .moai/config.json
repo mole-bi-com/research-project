@@ -2,15 +2,21 @@
   "project": {
     "name": "roadmap",
     "mode": "team",
-    "locale": "en",
+    "locale": "ko",
     "language": "generic",
     "language_detection": {
       "detected_language": "generic",
-      "detection_method": "cli_default",
-      "confidence": null,
-      "markers": [],
-      "confirmed_by": null
+      "detection_method": "documentation_project",
+      "confidence": "high",
+      "markers": ["markdown_only", "no_code_files"],
+      "confirmed_by": "alfred"
     },
     "optimized": false
+  },
+  "conversation": {
+    "language": "ko",
+    "language_name": "한국어",
+    "user_nickname": "스우쉬",
+    "selected_at": "2025-11-06T16:36:00+09:00"
   }
 }
